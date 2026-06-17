@@ -168,6 +168,7 @@ python ../scripts/seed_demo_data.py
 <p align="center">
   <img src="assets/screenshots/fig-tech-roadmap-pipeline.png" alt="语义匹配流程" width="800">
 </p>
+
 1. **文本构造** — 提取场景配置的嵌入字段，拼接用户个人标签
 2. **向量嵌入** — 智谱 AI embedding-2 将文本转为 1024 维向量（指数退避重试）
 3. **语义检索** — Milvus COSINE ANN 搜索，场景隔离 + 自排除
