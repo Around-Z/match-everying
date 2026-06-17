@@ -153,7 +153,7 @@ python ../scripts/seed_demo_data.py
 全局数据统计、用户角色管理、场景管理。密码哈希已脱敏。
 
 <p align="center">
-  <img src="assets/screenshots/screenshot-a5-admin-dashboard.png" alt="管理后台" width="700">
+  <img src="assets/screenshots/fig-tech-roadmap-pipeline.png" alt="管理后台" width="700">
 </p>
 
 ## 🧩 AI 匹配流水线
@@ -165,7 +165,9 @@ python ../scripts/seed_demo_data.py
    │               embedding-2   IVF_FLAT   权重融合      LLM     双写
    │               1024-dim      COSINE
 ```
-
+<p align="center">
+  <img src="assets/screenshots/fig-tech-roadmap-pipeline.png" alt="语义匹配流程" width="800">
+</p>
 1. **文本构造** — 提取场景配置的嵌入字段，拼接用户个人标签
 2. **向量嵌入** — 智谱 AI embedding-2 将文本转为 1024 维向量（指数退避重试）
 3. **语义检索** — Milvus COSINE ANN 搜索，场景隔离 + 自排除
@@ -248,7 +250,9 @@ matching-platform/
 | 对话模型 | **DeepSeek** | 场景生成 + 匹配解释 |
 | 认证 | **JWT (HS256)** + bcrypt | access 24h / refresh 7d |
 | 容器化 | **Docker Compose** | 一键部署、健康检查、数据持久化 |
-
+<p align="center">
+  <img src="assets/screenshots/fig-tech-roadmap-stack.png" alt="技术栈全景" width="800">
+</p>
 ## 📄 License
 
 MIT
