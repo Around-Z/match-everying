@@ -1,0 +1,38 @@
+# Environment — API keys
+.env
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.egg
+
+# Node
+node_modules/
+.next/
+out/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Course report — not part of the project source
+course-report/
+
+# Docker volumes
+mysql_data/
+
+# Logs
+*.log
+
+# Test artifacts
+test_results.json
