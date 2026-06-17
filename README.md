@@ -153,7 +153,7 @@ python ../scripts/seed_demo_data.py
 全局数据统计、用户角色管理、场景管理。密码哈希已脱敏。
 
 <p align="center">
-  <img src="assets/screenshots/fig-tech-roadmap-pipeline.png" alt="管理后台" width="700">
+  <img src="assets/screenshots/screenshot-a5-admin-dashboard.png" alt="管理后台" width="700">
 </p>
 
 ## 🧩 AI 匹配流水线
@@ -253,6 +253,7 @@ matching-platform/
 <p align="center">
   <img src="assets/screenshots/fig-tech-roadmap-stack.png" alt="技术栈全景" width="800">
 </p>
+
 ## 📄 License
 
 MIT
